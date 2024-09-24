@@ -1,0 +1,1 @@
+import{i as r}from"./@ionic-BB3tgule.js";import{H as t,D as o,G as a}from"./@vue-myJPyVL2.js";import"./@stencil-DBaMOtEh.js";import"./@capacitor-CHoHO2YB.js";import"./vue-router-DuYLgxNl.js";import"./localforage-qzmIiYbH.js";import"./@adjustcom-Dev-Q0DI.js";const l={__name:"Chats",setup(s){return(e,p)=>(a(),t(o(r),{class:"chats"}))}};export{l as default};
