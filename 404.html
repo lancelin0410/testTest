@@ -22,10 +22,12 @@
 			// https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
 			// https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
 			// Otherwise, leave pathSegmentsToKeep as 0.
-			const { protocol, hostname, port } = window.location;
+			const pathSegmentsToKeep = 1;
+			const { protocol, hostname, port, pathname, search, hash } = window.location;
 
 			window.location.replace(
 				`${protocol}//${hostname}${port ? `: ${port}` : ''}`
+					+ `${pathname.split("/").slice(0, 1 + pathSegmentsToKeep).join("/")}`
 			);
 		</script>
 	</head>
