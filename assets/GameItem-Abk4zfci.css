@@ -1,0 +1,1 @@
+.game-item{position:relative;max-width:30vw;border-radius:8px;overflow:hidden}.game-item ion-img.game-image{height:100%}.game-item ion-img.game-tag{position:absolute;top:6px;left:0;width:38px;z-index:1}.game-item .game-collect{position:absolute;top:6px;right:6px;z-index:1}

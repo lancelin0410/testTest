@@ -1,1 +1,0 @@
-System.register(["./index-legacy-B1lhG1-A.js"],(function(t,r){"use strict";var e;return{setters:[t=>{e=t.r}],execute:function(){t({c:function(t){return e({url:"/withdraw/createWithdrawOrder",method:"POST",data:t})},g:function(t){return e({url:"/withdraw/getWithdrawContent",method:"POST",data:t})},s:function(t){return e({url:"/withdraw/setPwd",method:"POST",data:t})}})}}}));

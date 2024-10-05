@@ -1,1 +1,0 @@
-import{r}from"./index-BLTQj5AA.js";function a(t){return r({url:"/withdraw/createWithdrawOrder",method:"POST",data:t})}function d(t){return r({url:"/withdraw/getWithdrawContent",method:"POST",data:t})}function n(t){return r({url:"/withdraw/setPwd",method:"POST",data:t})}export{a as c,d as g,n as s};
